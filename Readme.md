@@ -6,9 +6,6 @@ Projeto Desenvolvido
 <h1> Proposta do projeto</h1>
 Um bot que oferece dicas de saúde mental,autocuidado,livros,filmes,séries e podcast.
   <br>
-  🔴Desafio Escolhido:🔴<br> 
-  Desafio 4 - Como a tecnologia pode ajudar a garantir a participação plena e efetiva das mulheres e a igualdade de oportunidades para a liderança em todos os níveis de   tomada de decisão em organizações privadas e públicas?
-
   <h1>Projeto</h1>
   <b>Instagram do Projeto: </b>
   <b> Facebook do Projeto:</b>
