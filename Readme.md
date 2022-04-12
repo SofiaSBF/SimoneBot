@@ -23,4 +23,3 @@ Um bot que oferece dicas de saúde mental,autocuidado,livros,filmes,séries e po
 <li><a href='https://www.linkedin.com/in/sofiabfigueira/'>Sofia Figueira - Dev</a></li>
 <li><a href='https://www.linkedin.com/in/sheila-nery/'>Sheila Nery - Dev</a></li>
   <br><br>
-  <img src="https://i.ibb.co/9pYR3ZL/Projeto-de-Chatbots-relacionamentos-foto.png">
