@@ -21,5 +21,6 @@ Um bot que oferece dicas de saúde mental,autocuidado,livros,filmes,séries e po
 <li><a href='https://www.linkedin.com/in/yorigalvao/'>Yori Galvão - UX</a></li>
 <li><a href='https://www.linkedin.com/in/isabellavalentim1/'> Isabella Valentim - Curadoria/Dev</a></li>
 <li><a href='https://www.linkedin.com/in/sofiabfigueira/'>Sofia Figueira - Dev</a></li>
-<li><a href='https://www.linkedin.com/in/sheila-nery/'>Sheila Nery - Dev</a></li>
-  <br><br>
+<li><a href='https://www.linkedin.com/in/sheila-nery/'>Sheila Nery - Dev</a></li><br>
+  
+  <img src="https://i.ibb.co/n6HdCwn/bot-sa-de-mental.png" alt="bot-sa-de-mental"></a>
