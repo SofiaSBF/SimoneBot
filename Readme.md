@@ -12,7 +12,8 @@ Um bot que oferece dicas de saúde mental,autocuidado,livros,filmes,séries e po
   <b> Facebook do Projeto:</b> <a href= 'https://www.facebook.com/falacomsimone'>Clique aqui</a><br>
   <b> Slides do Projeto:</b> <a href= 'https://www.canva.com/design/DAEq33IX3HI/aeAyULWaKGvYs0S5pvHWEA/view?utm_content=DAEq33IX3HI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>Clique aqui</a><br> 
   <b>Miro do Projeto:</b> <a href= 'https://miro.com/app/board/o9J_l4PtBYg=/?share_link_id=824191900123'>Clique aqui</a><br>
-  <b> Pitch do Projeto:</b> <a href= 'https://www.youtube.com/watch?v=rrx4mOgEauM&ab_channel=SofiaBarbagelataFigueira'> Clique aqui</a><br> 
+  <b>Pitch do Projeto:</b> <a href= 'https://www.youtube.com/watch?v=rrx4mOgEauM&ab_channel=SofiaBarbagelataFigueira'> Clique aqui</a><br> 
+  <b>Link do Robô:</b> <a href= 'https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=d62ee43e-2d2f-4e18-93d0-2de842b1ceee&serviceInstanceID=ca686bf9-c81b-4bb5-8fcd-bd0cd264cd8a'>Clique aqui</a><br>
 
   <h1>Participantes do Projeto</h1> 
 <ul>  
