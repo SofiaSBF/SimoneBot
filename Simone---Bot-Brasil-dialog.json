@@ -1,0 +1,3161 @@
+{
+  "intents": [
+    {
+      "intent": "aproveitar_lazer",
+      "examples": [
+        {
+          "text": "Como posso descansar sem culpa?"
+        },
+        {
+          "text": "Estou em um momento de ócio. Me diz alguma coisa para fazer?"
+        },
+        {
+          "text": "Gostaria de divertir. Você tem alguma dica?"
+        },
+        {
+          "text": "hora do lazer"
+        },
+        {
+          "text": "Me diga alguma coisa para me divertir."
+        },
+        {
+          "text": "Me informe sobre algum hobby."
+        },
+        {
+          "text": "O que fazer em momentos de lazer?"
+        },
+        {
+          "text": "O que fazer no intervalo?"
+        },
+        {
+          "text": "Quero fazer qualquer coisa."
+        },
+        {
+          "text": "Tenho tempo livre hoje. Como aproveitar?"
+        },
+        {
+          "text": "Tenho uma pausa neste momento. O que eu posso fazer?"
+        }
+      ],
+      "description": "Hobbies para descanso"
+    },
+    {
+      "intent": "avaliar_dicas",
+      "examples": [
+        {
+          "text": "☹️"
+        },
+        {
+          "text": "😀"
+        },
+        {
+          "text": "😄"
+        },
+        {
+          "text": "😐"
+        },
+        {
+          "text": "🤐"
+        },
+        {
+          "text": "achei interessantes"
+        },
+        {
+          "text": "adorei tudo!"
+        },
+        {
+          "text": "foi ok"
+        },
+        {
+          "text": "não gostei"
+        },
+        {
+          "text": "não gostei de tudo"
+        }
+      ],
+      "description": "Para que o usuário possa avaliar as dicas"
+    },
+    {
+      "intent": "avaliar_Simone",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "cinco"
+        },
+        {
+          "text": "dois"
+        },
+        {
+          "text": "quatro"
+        },
+        {
+          "text": "três"
+        },
+        {
+          "text": "um"
+        }
+      ],
+      "description": "Para que usuário possa avaliar Simone e dicas"
+    },
+    {
+      "intent": "comunicar_sobre_sono",
+      "examples": [
+        {
+          "text": "Como faço para ter um sono de qualidade?"
+        },
+        {
+          "text": "Eu gostaria muito de dormir bem."
+        },
+        {
+          "text": "Preciso de uma boa qualidade de sono para ter energia durante o dia."
+        },
+        {
+          "text": "Preciso de um sono de qualidade."
+        },
+        {
+          "text": "Preciso dormir melhor. Como faço?"
+        },
+        {
+          "text": "Quero entender porque não consigo dormir bem."
+        },
+        {
+          "text": "Quero ter boas noites de sono."
+        },
+        {
+          "text": "Quero ter uma ótima noite."
+        },
+        {
+          "text": "Quero ter um bom sono."
+        },
+        {
+          "text": "Você pode me ajudar a ter uma boa noite de sono?"
+        }
+      ],
+      "description": "Informar para o usuário sobre horas de sono."
+    },
+    {
+      "intent": "conceder_saudação",
+      "examples": [
+        {
+          "text": "Aee"
+        },
+        {
+          "text": "Boa noite."
+        },
+        {
+          "text": "Boa Tarde."
+        },
+        {
+          "text": "Bom dia."
+        },
+        {
+          "text": "E aí?"
+        },
+        {
+          "text": "Fala!"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Oin"
+        },
+        {
+          "text": "Oioi"
+        },
+        {
+          "text": "Ooii"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "tem alguém ai?"
+        }
+      ],
+      "description": "Saudação inicial ao usuário"
+    },
+    {
+      "intent": "demonstrar_nao_entender",
+      "examples": [
+        {
+          "text": "Aqui é um robô de banco?"
+        },
+        {
+          "text": "Como eu vim parar aqui!"
+        },
+        {
+          "text": "Eu gosto de jogar vôlei tb"
+        },
+        {
+          "text": "Fale de uma maneira mais fácil de entender, por favor."
+        },
+        {
+          "text": "Não estou entendendo o que você está falando!"
+        },
+        {
+          "text": "Não estou entendo o que você está dizendo."
+        },
+        {
+          "text": "não te entendo..."
+        },
+        {
+          "text": "Não tô te entendendo!"
+        },
+        {
+          "text": "o que é isso?"
+        },
+        {
+          "text": "O que isso quer dizer?"
+        },
+        {
+          "text": "Vocês vendem alguma coisa?"
+        }
+      ],
+      "description": "Quando algo for dito e ainda não tiver exemplo"
+    },
+    {
+      "intent": "despedir",
+      "examples": [
+        {
+          "text": "Até mais."
+        },
+        {
+          "text": "Bye Bye."
+        },
+        {
+          "text": "Cansei da tela do computador"
+        },
+        {
+          "text": "Fui!"
+        },
+        {
+          "text": "Não aguento mais!"
+        },
+        {
+          "text": "Para"
+        },
+        {
+          "text": "Parar."
+        },
+        {
+          "text": "Preciso ir agora."
+        },
+        {
+          "text": "Sair."
+        },
+        {
+          "text": "sairt"
+        },
+        {
+          "text": "Stop"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Tenho outras coisas pra fazer."
+        },
+        {
+          "text": "Thau"
+        }
+      ],
+      "description": "Se despedir"
+    },
+    {
+      "intent": "dicas_alimentação",
+      "examples": [
+        {
+          "text": "Alimento que faz mal"
+        },
+        {
+          "text": "comer porcaria"
+        },
+        {
+          "text": "Comer pra me sentir bem"
+        },
+        {
+          "text": "comida"
+        },
+        {
+          "text": "comida e bom humor"
+        },
+        {
+          "text": "fast food"
+        },
+        {
+          "text": "Me conte sobre alimentos que fazem bem para o corpo."
+        },
+        {
+          "text": "Me dê dicas sobre alimentação"
+        },
+        {
+          "text": "Me fale sobre alimentos saudáveis."
+        },
+        {
+          "text": "O que eu posso comer?"
+        },
+        {
+          "text": "Quero saber sobre alimentação equilibrada"
+        }
+      ],
+      "description": "Saber sobre alimentação equilibrada"
+    },
+    {
+      "intent": "expressar_emocoes",
+      "examples": [
+        {
+          "text": "Ando muito estressado."
+        },
+        {
+          "text": "Estou chateada!"
+        },
+        {
+          "text": "Estou me sentindo triste"
+        },
+        {
+          "text": "Eu estou com muita raiva."
+        },
+        {
+          "text": "Eu guardo para mim situações que não deveria,o que eu devo fazer?"
+        },
+        {
+          "text": "Guardo todas as minhas emoções sempre."
+        },
+        {
+          "text": "Não quero incomodar ninguém"
+        },
+        {
+          "text": "Não sei como expressar meus sentimentos"
+        },
+        {
+          "text": "Ninguém me entende!"
+        },
+        {
+          "text": "Quero saber dicas de como me expressar"
+        }
+      ],
+      "description": "Sobre a importância de falar como se sente"
+    },
+    {
+      "intent": "falar_sobre_saude",
+      "examples": [
+        {
+          "text": "como eu posso ter um corpo mais saudável?"
+        },
+        {
+          "text": "estresse"
+        },
+        {
+          "text": "Gostaria de falar sobre saúde."
+        },
+        {
+          "text": "Me indique o que eu posso fazer para melhorar minha saúde."
+        },
+        {
+          "text": "me indique uma atividade física"
+        },
+        {
+          "text": "O que eu posso fazer para melhorar minha saúde?"
+        },
+        {
+          "text": "Quero falar sobre saúde."
+        },
+        {
+          "text": "quero saúde e bem-estar"
+        },
+        {
+          "text": "sade"
+        },
+        {
+          "text": "saúde física"
+        },
+        {
+          "text": "sauude"
+        },
+        {
+          "text": "sedentarismo"
+        }
+      ],
+      "description": "Falar com usuário sobre saúde física. "
+    },
+    {
+      "intent": "fazer_alongamento",
+      "examples": [
+        {
+          "text": "alogamento"
+        },
+        {
+          "text": "alongamento"
+        },
+        {
+          "text": "Alongamentos"
+        },
+        {
+          "text": "alongar"
+        },
+        {
+          "text": "como posso me alongar em casa"
+        },
+        {
+          "text": "dá para se alongar em casa?"
+        },
+        {
+          "text": "esticar o corpo"
+        },
+        {
+          "text": "ginastica laboral"
+        },
+        {
+          "text": "quero me alongar"
+        },
+        {
+          "text": "reduzir tensão"
+        }
+      ],
+      "description": "Dica sobre alongamento"
+    },
+    {
+      "intent": "fazer_automassagem",
+      "examples": [
+        {
+          "text": "Como se faz automassagem?"
+        },
+        {
+          "text": "Como se realiza automassagem?"
+        },
+        {
+          "text": "Gostaria de saber sobre Automassagem."
+        },
+        {
+          "text": "massagear"
+        },
+        {
+          "text": "Massagem"
+        },
+        {
+          "text": "Me conta sobre automassagem por favor."
+        },
+        {
+          "text": "Me fala sobre automassagem"
+        },
+        {
+          "text": "Me indica uma dica de automassagem"
+        },
+        {
+          "text": "óleo de massagem"
+        },
+        {
+          "text": "O que é automassagem?"
+        }
+      ],
+      "description": "Dica sobre automassagem"
+    },
+    {
+      "intent": "gerir_tempo",
+      "examples": [
+        {
+          "text": "Administração de tempo"
+        },
+        {
+          "text": "como posso administrar meu tempo?"
+        },
+        {
+          "text": "fale mais sobre gestão de tempo"
+        },
+        {
+          "text": "fazer as tarefas"
+        },
+        {
+          "text": "Gestão de tempo"
+        },
+        {
+          "text": "organizar o dia"
+        },
+        {
+          "text": "priorizar"
+        },
+        {
+          "text": "produzir mais"
+        },
+        {
+          "text": "quero dicas para organizar meu tempo"
+        },
+        {
+          "text": "Trabalho em casa"
+        }
+      ],
+      "description": "Dica sobre gestão de tempo"
+    },
+    {
+      "intent": "indicar_sobre_CVV",
+      "examples": [
+        {
+          "text": "ajuda*&_\":+"
+        },
+        {
+          "text": "Como eu falo com alguém nesse momento?!"
+        },
+        {
+          "text": "Depressão"
+        },
+        {
+          "text": "e quais profissionais você tem disponível?"
+        },
+        {
+          "text": "Estou pensando em suicidio"
+        },
+        {
+          "text": "Estou pensando em suicídio."
+        },
+        {
+          "text": "Eu gostaria de falar com alguém."
+        },
+        {
+          "text": "Eu preciso falar com alguém urgente."
+        },
+        {
+          "text": "Eu quero me suicídar"
+        },
+        {
+          "text": "Gostaria de saber o telefone do CVV."
+        },
+        {
+          "text": "Por favor, eu gostaria de saber sobre o CVV"
+        },
+        {
+          "text": "Por favor, me informe sobre o Centro de Valorização da Vida."
+        },
+        {
+          "text": "Preciso falar com alguém agora."
+        },
+        {
+          "text": "Quero falar com alguém anonimamente."
+        },
+        {
+          "text": "Quero saber mais sobre o CVV."
+        },
+        {
+          "text": "Quero saber sobre o CVV."
+        },
+        {
+          "text": "Socorro"
+        },
+        {
+          "text": "vou cortar os pulsos"
+        }
+      ],
+      "description": "Informar ao cliente sobre o CVV - Centro de Valorização da Vida."
+    },
+    {
+      "intent": "informar_tipo_sessao",
+      "examples": [
+        {
+          "text": "como conseguir ajuda?"
+        },
+        {
+          "text": "Como funciona as sessões de acolhimento?"
+        },
+        {
+          "text": "está dando errado na minha vida"
+        },
+        {
+          "text": "Me diga o que significa sessão de acolhimento."
+        },
+        {
+          "text": "não sei com quem falar"
+        },
+        {
+          "text": "o que é psicoterapia?"
+        },
+        {
+          "text": "O que é sessão de acolhimento?"
+        },
+        {
+          "text": "preciso conversar com alguém"
+        },
+        {
+          "text": "preciso de ajuda psicológica!"
+        },
+        {
+          "text": "preciso de apoio"
+        },
+        {
+          "text": "preciso de apoio de um psicologo"
+        },
+        {
+          "text": "Quero saber sobre essas sessões."
+        },
+        {
+          "text": "Saber sobre sessões de acolhimento."
+        },
+        {
+          "text": "Session de terapua"
+        },
+        {
+          "text": "tenho ansiedade, o que você me indica?"
+        },
+        {
+          "text": "tristeza"
+        }
+      ],
+      "description": "Informar para o usuário sobre as sessões de acolhimento."
+    },
+    {
+      "intent": "numerosnps",
+      "examples": []
+    },
+    {
+      "intent": "organizar_espaco",
+      "examples": [
+        {
+          "text": "ambiente de trabalho"
+        },
+        {
+          "text": "Conforto"
+        },
+        {
+          "text": "Conforto / Ergonomia"
+        },
+        {
+          "text": "criar ambiente"
+        },
+        {
+          "text": "decoração do trabalho"
+        },
+        {
+          "text": "escritório"
+        },
+        {
+          "text": "mesa de trabalho"
+        },
+        {
+          "text": "o que preciso para trabalhar"
+        },
+        {
+          "text": "Organização do espaço"
+        },
+        {
+          "text": "Organizar local"
+        }
+      ],
+      "description": "Dica sobre organização do espaço"
+    },
+    {
+      "intent": "praticar_autocuidado",
+      "examples": [
+        {
+          "text": "atenção a si próprio"
+        },
+        {
+          "text": "auto cuidado"
+        },
+        {
+          "text": "autocuidado"
+        },
+        {
+          "text": "bem-estar"
+        },
+        {
+          "text": "como me sinto"
+        },
+        {
+          "text": "cuidado pessoal"
+        },
+        {
+          "text": "cuidar de mim"
+        },
+        {
+          "text": "dar atenção a mim"
+        },
+        {
+          "text": "me fazer bem"
+        },
+        {
+          "text": "se cuidar"
+        }
+      ],
+      "description": "Necessidade do autocuidado"
+    },
+    {
+      "intent": "recomendar_para_espairecer",
+      "examples": [
+        {
+          "text": "dicas de conteudo"
+        },
+        {
+          "text": "Estou procurando uma coisa nova. Poderia me ajudar?"
+        },
+        {
+          "text": "filme"
+        },
+        {
+          "text": "me indica uma série"
+        },
+        {
+          "text": "me indica um filme"
+        },
+        {
+          "text": "me indica um livro"
+        },
+        {
+          "text": "me indica um podcast"
+        },
+        {
+          "text": "me indique um conteudo"
+        },
+        {
+          "text": "Me recomenda alguma coisa agora!"
+        },
+        {
+          "text": "Nextflix"
+        },
+        {
+          "text": "Oi, Por favor, eu gostaria de ver algo."
+        },
+        {
+          "text": "podcast"
+        },
+        {
+          "text": "podcasts"
+        },
+        {
+          "text": "Quero algo novo."
+        },
+        {
+          "text": "quero saber sobre conteúdos"
+        },
+        {
+          "text": "youtube"
+        }
+      ],
+      "description": "Recomendações de filmes, séries e livros para o usuário. "
+    },
+    {
+      "intent": "responder_agradecimento",
+      "examples": [
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "demais"
+        },
+        {
+          "text": "isso foi útil"
+        },
+        {
+          "text": "muito bom"
+        },
+        {
+          "text": "Muito obrigada!"
+        },
+        {
+          "text": "muito valeu"
+        },
+        {
+          "text": "Obrigada!"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "super valeu"
+        },
+        {
+          "text": "Valeu!"
+        }
+      ],
+      "description": "Quando o usuário agradece o bot."
+    },
+    {
+      "intent": "responder_elogio",
+      "examples": [
+        {
+          "text": "Achei engraçado"
+        },
+        {
+          "text": "Adorei."
+        },
+        {
+          "text": "Ai que linda"
+        },
+        {
+          "text": "Ameeeeeei a Simone"
+        },
+        {
+          "text": "Amei muito!"
+        },
+        {
+          "text": "Gostei de você"
+        },
+        {
+          "text": "Muito bom"
+        },
+        {
+          "text": "Muito Legal!"
+        },
+        {
+          "text": "Sucesso!"
+        },
+        {
+          "text": "Você é bonita!"
+        },
+        {
+          "text": "Você é divina!"
+        },
+        {
+          "text": "Você é linda."
+        },
+        {
+          "text": "Você é maravilhosa!"
+        },
+        {
+          "text": "Você é muito fofa!"
+        }
+      ],
+      "description": "Quando o usuário elogia Simone"
+    },
+    {
+      "intent": "responder_ofensa",
+      "examples": [
+        {
+          "text": "besta"
+        },
+        {
+          "text": "bot feio"
+        },
+        {
+          "text": "Chata"
+        },
+        {
+          "text": "Feia!"
+        },
+        {
+          "text": "Horrível!"
+        },
+        {
+          "text": "Idiota"
+        },
+        {
+          "text": "Inútil"
+        },
+        {
+          "text": "não serve pra nada"
+        },
+        {
+          "text": "Odeio você."
+        },
+        {
+          "text": "Porra!"
+        },
+        {
+          "text": "robô ruim!"
+        },
+        {
+          "text": "Seu merda!"
+        },
+        {
+          "text": "Seu trouxa!"
+        },
+        {
+          "text": "Sua esquisita!"
+        },
+        {
+          "text": "Sua trouxa!"
+        }
+      ],
+      "description": "Responder ofensas de usuários"
+    },
+    {
+      "intent": "sugerir_atividade_fisica",
+      "examples": [
+        {
+          "text": "Exercício"
+        },
+        {
+          "text": "exercício na sala"
+        },
+        {
+          "text": "Exercícios"
+        },
+        {
+          "text": "malhar em casa"
+        },
+        {
+          "text": "meditação"
+        },
+        {
+          "text": "meditar"
+        },
+        {
+          "text": "me exercitar em casa"
+        },
+        {
+          "text": "pilates"
+        },
+        {
+          "text": "prefiro fazer exercicios em casa"
+        },
+        {
+          "text": "yoga"
+        }
+      ],
+      "description": "Sugerir para o usuário uma atividade física."
+    },
+    {
+      "intent": "ter_gancho",
+      "examples": [
+        {
+          "text": "acabou?"
+        },
+        {
+          "text": "algo mais"
+        },
+        {
+          "text": "e agora?"
+        },
+        {
+          "text": "era só isso?"
+        },
+        {
+          "text": "fala de outra coisa"
+        },
+        {
+          "text": "mais um"
+        },
+        {
+          "text": "mudar de assunto"
+        },
+        {
+          "text": "Que mais"
+        },
+        {
+          "text": "quero outra coisa"
+        },
+        {
+          "text": "Sim"
+        },
+        {
+          "text": "Sim quero ajuda"
+        },
+        {
+          "text": "Sim, senhor"
+        },
+        {
+          "text": "tem mais?"
+        },
+        {
+          "text": "vamos ter outro papo"
+        }
+      ],
+      "description": "Para o usuário poder retomar a conversa após um tópico"
+    },
+    {
+      "intent": "trabalhar_homeoffice",
+      "examples": [
+        {
+          "text": "carreira"
+        },
+        {
+          "text": "carreira e home office"
+        },
+        {
+          "text": "como me organizo"
+        },
+        {
+          "text": "como monto escritório em casa"
+        },
+        {
+          "text": "ergonomia"
+        },
+        {
+          "text": "gestão da rotina"
+        },
+        {
+          "text": "home office"
+        },
+        {
+          "text": "organizar tempo"
+        },
+        {
+          "text": "trabalhar de casa"
+        },
+        {
+          "text": "trabalho em casa"
+        },
+        {
+          "text": "trabalho remoto"
+        }
+      ],
+      "description": "Dicas para trabalhar em casa"
+    },
+    {
+      "intent": "voltaraomenu",
+      "examples": [
+        {
+          "text": "Começar de novo."
+        },
+        {
+          "text": "Gostaria de voltar ao menu agora!"
+        },
+        {
+          "text": "mostrar opções"
+        },
+        {
+          "text": "o que mais vc sabe?"
+        },
+        {
+          "text": "O que mais você sabe?"
+        },
+        {
+          "text": "Preciso voltar ao menu!"
+        },
+        {
+          "text": "Quero escolher outra opção."
+        },
+        {
+          "text": "Quero voltar ao início."
+        },
+        {
+          "text": "Quero voltar ao menu principal por favor."
+        },
+        {
+          "text": "recomeçar"
+        },
+        {
+          "text": "/star"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "Voltar ao menu."
+        }
+      ],
+      "description": "Para o usuário retornar ao menu"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ambiente",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "organizar meu escritório",
+          "synonyms": [
+            "adequar",
+            "disciplina",
+            "Espaço home office",
+            "limpeza",
+            "manter",
+            "organização",
+            "organizar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aplicativo",
+          "synonyms": [
+            "aplicativo ",
+            "aplicativos que melhorem a organização ",
+            "Me de informações sobre aplicativos que diminuam a ansiedade",
+            "Me fale sobre algum aplicativo",
+            "Me indique um aplicativo",
+            "quero saber sobre um aplicativo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Filme",
+          "synonyms": [
+            "filmaço",
+            "filmão",
+            "filme",
+            "filmes ",
+            "filminho ",
+            "Nextflix"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Livro",
+          "synonyms": [
+            "livro ",
+            "livros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Podcast",
+          "synonyms": [
+            "Aúdio ",
+            "formato podcast ",
+            "podcast",
+            "podcasts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Séries",
+          "synonyms": [
+            "mini-série",
+            "Nextflix",
+            "Novela",
+            "Novelas ",
+            "Série",
+            "Séries "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Youtube",
+          "synonyms": [
+            "aprender",
+            "divertir ",
+            "Quero ver um vídeo ",
+            "Quero ver um vídeo do youtube",
+            "Vídeo ",
+            "Youtube"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ergonomia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ambiente",
+          "synonyms": [
+            "local"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ergonomia",
+          "synonyms": [
+            "coluna",
+            "conforto",
+            "ergonomia",
+            "sentar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "local de trabalho",
+          "synonyms": [
+            "home office"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "exercicios",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Exercícios em casa",
+          "synonyms": [
+            "atividade em casa",
+            "Exercício em casa",
+            "Exercícios",
+            "Saúde Física"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meditação",
+          "synonyms": [
+            "Gostaria de saber mais sobre meditação",
+            "Meditação ",
+            "Meditar",
+            "Quero informações sobre meditação",
+            "Saber informações sobre meditação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pilates",
+          "synonyms": [
+            "fisioterapia",
+            "Gosto de pilates ",
+            "Informações sobre pilates",
+            "pilate ",
+            "pilates ",
+            "Quero saber mais sobre pilates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yoga",
+          "synonyms": [
+            "Gosto mais de Yoga",
+            "Prefiro Yoga",
+            "Quero mais informações sobre Yoga",
+            "Yoga "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "numeros",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "eu achei legal",
+          "patterns": [
+            "^{6-10}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "Eu achei péssimo",
+          "patterns": [
+            "^{1-5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sessao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Acolhimento",
+          "synonyms": [
+            "acolhimento online",
+            "ser acolhido"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Psicoterapia",
+          "synonyms": [
+            "psicológico",
+            "psicologo",
+            "psicoterapia",
+            "psiquiatra",
+            "terapia",
+            "tipos de sessão"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Boas Vindas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, é muito bom ter a chance de falar com você! Meu nome é Simone e estou aqui pra bater um papo leve sobre saúde mental e bem-estar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Podemos começar por temas como <b>autocuidado, saúde física ou home office</b>. Se preferir algo ainda mais leve, posso dar umas dicas de  <b>filmes, séries, podcasts e livros</b>. .Mas se vc precisa de  ajuda profissional , também posso dar indicações!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Digite o tema q prefere e seguiremos adiante.\nSe quiser interromper a conversa, é só digitar \"parar\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_4_1631731234033"
+    },
+    {
+      "type": "standard",
+      "title": "Demonstrar não entender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi o que você disse, pode repetir de outra forma?"
+              },
+              {
+                "text": "Hum, fiquei confusa com o que você disse. Tente de novo com outras palavras. 🤔"
+              },
+              {
+                "text": "Puts! Realmente não estou conseguindo te entender e, infelizmente, não temos atendimento humano para que você possa tirar suas dúvidas. Mas continuo aqui para ajudar sobre saúde e bem-estar. 🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1632362385123",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1632276832839",
+      "context": {
+        "sessao": "@sessao"
+      },
+      "conditions": "@sessao",
+      "event_name": "input",
+      "dialog_node": "handler_10_1632276832855"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, q bom q vc topou ver algumas indicações de conteúdo! 😄 \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer começar pelo que: livro, série, filme, podcast, YouTube ou app? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1631805437073"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1632236632175",
+      "event_name": "input",
+      "dialog_node": "handler_1_1632236632186"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sei que nem sempre é fácil lidar com nossos problemas. As vezes pode parecer que ninguém entende o que sentimos, né?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas precisamos cuidar da nossa saúde mental, assim como da nossa saúde física."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Pensando nisso, vou te passar algumas informações para que você encontre ajuda psicológica facilitada, sempre que precisar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Você pode me falar algo como <b> quero saber sobre o CVV</b>. Caso queira, também posso te explicar sobre <b>sessão de acolhimento</b> ou <b> psicoterapia</b>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1632276832839",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1632276832855",
+      "previous_sibling": "handler_10_1632276832855"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1632236632175",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1632236632186",
+      "previous_sibling": "handler_1_1632236632186"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1632276011051",
+      "event_name": "input",
+      "dialog_node": "handler_4_1632276011067"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1632276011051",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1632276011067",
+      "previous_sibling": "handler_4_1632276011067"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hum, estou em aprendizado e não consigo te ajudar com esse assunto ainda. Você pode me perguntar sobre saúde física, autocuidado, ajuda psicológica e mais coisas relacionadas a saúde mental. "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_3_1631743502012",
+      "context": {
+        "counter": "<? $counter + 2 ?>"
+      },
+      "next_step": {
+        "behavior": "skip_slot"
+      },
+      "conditions": "$counter > 3",
+      "event_name": "generic",
+      "dialog_node": "handler_5_1632311365336"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1632421257926",
+      "context": {
+        "expressar_emocoes": "#expressar_emocoes"
+      },
+      "conditions": "#expressar_emocoes",
+      "event_name": "input",
+      "dialog_node": "handler_5_1632421257940"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1631805437452",
+      "context": {
+        "dica": "@dica"
+      },
+      "conditions": "@dica",
+      "event_name": "input",
+      "dialog_node": "handler_6_1631805437470"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante a pandemia, pode ser difícil manter a motivação para se exercitar, mas isso faz seu cérebro produzir o famoso hormônio da felicidade: a endorfina! 🤸‍♂️ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Yoga</b>, <b>pilates</b>  ou <b>meditação</b>, o que te atrai mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1631815895586",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1631815895601",
+      "previous_sibling": "handler_8_1631815895601"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1632279197410",
+      "event_name": "input",
+      "dialog_node": "handler_6_1632279197423"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hum, estou em aprendizado e não consigo te ajudar com esse assunto ainda. Você pode me perguntar sobre saúde física, autocuidado, ajuda psicológica e mais coisas relacionadas a saúde mental. "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1631811576179",
+      "context": {
+        "counter": " <? $counter = $counter +2 ?>"
+      },
+      "conditions": "$counter > 3",
+      "event_name": "generic",
+      "dialog_node": "handler_6_1632311566784"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, q bom q vc topou ver algumas indicações de conteúdo! 😄 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer começar pelo que: livro, série, filme, podcast, YouTube ou app?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1631805437452",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1631805437470",
+      "previous_sibling": "handler_6_1631805437470"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1631815895586",
+      "context": {
+        "exercicios": "@exercicios"
+      },
+      "conditions": "@exercicios",
+      "event_name": "input",
+      "dialog_node": "handler_8_1631815895601"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1632279197410",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1632279197423",
+      "previous_sibling": "handler_6_1632279197423"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1632513701770",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1632513701771",
+      "previous_sibling": "handler_9_1632513701771"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1632421257926",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1632421257940",
+      "previous_sibling": "handler_5_1632421257940"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1632513701770",
+      "context": {
+        "recomendar_para_espairecer": "#recomendar_para_espairecer"
+      },
+      "conditions": "#recomendar_para_espairecer",
+      "event_name": "input",
+      "dialog_node": "handler_9_1632513701771"
+    },
+    {
+      "type": "standard",
+      "title": "Carreira e home office",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou te dar dicas de como ter mais qualidade de vida no home office!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Por onde quer começar? \n\n<b> Gestão de tempo ⌛ </b> \n<b> Conforto / Ergonomia 🪑 </b>\n<b> Organização do ambiente 🖊️ </b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#trabalhar_homeoffice",
+      "dialog_node": "node_10_1631745461037",
+      "previous_sibling": "node_9_1632276340446"
+    },
+    {
+      "type": "standard",
+      "title": "Alimentação Equilibrada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre um sanduíche de fast food 🍟 e um prato com repolho refogado 🥬 e filé de frango, o que você escolheria? A resposta certa é: depende!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O segredo está na alimentação cotidiana, seja combinando legumes para colorir o prato ou lanchando frutas durante a tarde, o importante é que você se delicie com o que gostar de comer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Água também é um agente importantíssimo para manter a sua saúde em dia, sabia?\n\nAqui vai uma dica de APP para controlar isso de forma divertida:                                                      \n <a href= 'https://glo.bo/3Cj29xs'> https://www.techtudo.com.br/tudo-sobre/plant-nanny.html  </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#dicas_alimentação",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1631817001901",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1631743502012"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar pós NPS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigada por responder! Foi um prazer conversar com você, sempre que precisar.. estou por aqui, basta digitar oi para batermos papo novamente. 👋🏾❤️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@sys-number:1 || @sys-number:2 || @sys-number:3 || @sys-number:4 || @sys-number:5 && #numerosnps",
+      "dialog_node": "node_1_1632362385123",
+      "previous_sibling": "node_7_1631988131882"
+    },
+    {
+      "type": "standard",
+      "title": "Gestão de tempo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gestão de tempo e produtividade não é apenas sobre fazer mais — é tomar de volta as rédeas do seu tempo para que você possa se concentrar naquilo que faz mais sentido para você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "-Faça o tempo trabalhar para você, planejando uma rotina de trabalho\n\nAtenção: ter uma rotina não significa trabalhar exatamente no horário comercial da sua cidade. Trata-se de buscar organizar sua vida entre o profissional e pessoal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "· Ter um tempo para você é o mais importante - inclusive para fazer nada\n· Entenda o seu horário de melhor rendimento\n· Evite distrações, pois demoramos para recuperar a concentração. O melhor é ter foco em uma tarefa por vez\n· Mantenha a comunicação com a sua equipe\n· Use ferramentas para facilitar o dia a dia do trabalho remoto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "· Monte uma estrutura adequada\n· Faça pausas regulares\n· Alongue-se durante o dia\n· Não descuide da alimentação\n· Tenha boas noites de sono\n· Reserve um tempo para você"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#gerir_tempo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1631665920453",
+      "previous_sibling": "node_10_1631745461037"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1631811576179",
+      "context": {
+        "sessao": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "$sessao != null",
+      "dialog_node": "node_2_1632278934364",
+      "previous_sibling": "handler_6_1632311566784"
+    },
+    {
+      "type": "frame",
+      "title": "Saúde Física",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#sugerir_atividade_fisica",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1631743502012",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1631817166891",
+      "digress_out_slots": "not_allowed",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Saudar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, é muito bom ter a chance de falar com você! Meu nome é Simone e estou aqui pra bater um papo leve sobre saúde mental e bem-estar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Podemos começar por temas como ** autocuidado,  saúde física ou home office**. Se preferir algo ainda mais leve, posso dar umas dicas de **filmes, séries, podcasts e livros** 😄\nMas se você precisar de ajuda profissional, posso dar indicações!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Digite o tema que prefere e seguiremos adiante.\nSe quiser interromper a conversa, é só digitar \"parar\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#conceder_saudação",
+      "digress_in": "returns",
+      "dialog_node": "node_4_1631731234033",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Responder xingamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ofensas não são bem-vindas aqui! ✋ Mas você pode me perguntar sobre assuntos relacionados a bem-estar quando quiser. "
+              },
+              {
+                "text": "Não precisamos conversar dessa forma! \n<img src=\"https://i.ibb.co/YjRRd8L/giphy-gif-cid-790b7611bf95c06161ceb6e3a5105e2493184e5d31192349-rid-giphy.gif height=50 width=50\">"
+              },
+              {
+                "text": "Vou te dar um tempo para rever o que você falou, beleza?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Se quiser encerrar nossa conversa digite \"sair\" ou digite \"voltar ao menu\" para ver as opções iniciais. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1631988133564"
+      },
+      "conditions": "#responder_ofensa",
+      "digress_in": "returns",
+      "dialog_node": "node_4_1631735570142",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1631988133564"
+    },
+    {
+      "type": "standard",
+      "title": "Organizar espaço",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#organizar_espaco",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1631756299994",
+      "previous_sibling": "node_2_1631665920453"
+    },
+    {
+      "type": "standard",
+      "title": "Auto cuidado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se cuidar é muito importante, mas sei que estamos em um momento que nossas prioridades são outras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Então, estou aqui para te dar algumas dicas. Espero que te ajude!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<center>Aqui poderei falar sobre: \n\n<b>- Auto-massagem\n- Alongamento\n- Hora do lazer\n- Qualidade do sono\n- Expressando emoções </b> </center>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#praticar_autocuidado",
+      "dialog_node": "node_5_1631741046505",
+      "previous_sibling": "node_6_1631674711774"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback sobre Simone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E a outra é: quanto você gostou das minhas dicas?\n☹️ - não gostei\n🤐 - não gostei de tudo\n😐 - foi ok\n😀 - achei interessantes\n😄 - adorei tudo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1631988131882"
+      },
+      "conditions": "@numeros",
+      "dialog_node": "node_5_1631827251385",
+      "previous_sibling": "node_9_1631735400484"
+    },
+    {
+      "type": "standard",
+      "title": "Voltar ao menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode me perguntar sobre temas como <b>autocuidado, saúde física ou home office. </b> Se preferir algo ainda mais leve, posso dar umas dicas de <b>filmes, séries, podcasts e livros</b> 😄\n\nMas se você precisar de ajuda profissional, posso dar indicações!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#voltaraomenu",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1631988133564",
+      "digress_out": "allow_all",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Dicas de Conteúdo",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#recomendar_para_espairecer",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1631674711774",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1631735678196",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Início - Saúde Física",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cuidar da nossa saúde é essencial para que o corpo e a mente possam entrar em equilíbrio. 🧘🏽‍♀️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ter um corpo saudável é diferente de ter um corpo sarado ou \"padrão\", é sobre amor próprio! ❤️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso indicar alternativas para <b>exercícios em casa</b> e sobre <b>alimentação equilibrada.</b>\n\nPor onde vamos começar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#falar_sobre_saude",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1631817166891",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1632436267792"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pronto: sua opinião vai me ajudar a ser uma assistente melhor e, por isso, super valeu 🙏🏽"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@numeros",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1631988131882",
+      "previous_sibling": "node_5_1631827251385"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estou aqui para aprender com você e aumentar meu nível de maturidade! Conte comigo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso ajudar você com algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#responder_agradecimento",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1632399265143",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1631826667661"
+    },
+    {
+      "type": "standard",
+      "title": "Aproveitar Lazer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se divertir é essencial! Não tente ser uma pessoa produtiva todo o tempo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Usar redes sociais não é lazer. Estudos dizem que as redes podem ser fonte de ansiedade, estresse, mau humor e contribuir para depressão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ler, jogar algo, ver seriado, fazer exercícios, desenhar, falar com amigos: isso sim é lazer!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Conte com sua rede de apoio. Falar com quem vc gosta é importante. Mensagem, ligação, chamada de vídeo ou um encontro seguro. O que vale é a diversão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#aproveitar_lazer",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1632436267792",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1631756299994"
+    },
+    {
+      "type": "frame",
+      "title": "Ajuda Profissional -  Sessões",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#informar_tipo_sessao",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1631811576179",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1631817001901"
+    },
+    {
+      "type": "standard",
+      "title": "Ajuda Profissional - CVV - Centro de Valorização a vida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O CVV realiza apoio emocional e prevenção do suicídio. \nO atendimento é feito gratuitamente por pessoas voluntárias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Assim, caso queira ou precise conversar com alguém anonimamente, \nvocê poderá realizar o contato por telefone, e-mail ou chat."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ligue no telefone <b> 188</b> ou acesse o site para entrar em contato pelo chat ou e-mail: \n<a href= 'https://bit.ly/397R9X2'> https://www.cvv.org.br/ </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#indicar_sobre_CVV",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1631821029291",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1631811576179"
+    },
+    {
+      "type": "standard",
+      "title": "Despedir",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Já quer ir embora? Ah, tudo bem! Vou estar por aqui se quiser conversar mais! 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Maaaaass, antes de ir, você pode me ajudar respondendo 2 perguntinhas rápidas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A 1ª é para saber o que você achou de falar comigo. De 1 a 5, sendo 1 a menor e 5 a maior nota, quanto você gostou da nossa conversa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1631827251385"
+      },
+      "conditions": "#despedir",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1631735400484",
+      "previous_sibling": "node_7_1632399265143"
+    },
+    {
+      "type": "standard",
+      "title": "Elogios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tô me sentindo toda fada sensata agora! 🧚🏽‍♀️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.ibb.co/7GnHsYP/Fada-sensata.png",
+            "alt_text": "Fada Sensata",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#responder_elogio",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1631735678196",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1631735570142"
+    },
+    {
+      "type": "standard",
+      "title": "Qualidade do Sono",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenha uma rotina antes de dormir. Sua mente precisa entender que está na hora de descansar.  \n                                                                                                                                                                           Evite luzes artificiais como de TVs, computadores, celulares e vídeo games, no mínimo, 1 hora antes do horário que deseja dormir."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Não consuma estimulantes pelo menos 3 horas antes do momento que deseja pegar no sono. Atenção dobrada para o café, pois algumas pessoas são sensíveis à cafeína."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Se possível, utilize luz amarela e diminua a claridade. Ouça algo que te ajude a relaxar e desconecte das redes sociais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O sono é um ótimo regulador de humor. Caso não durma bem, você talvez queira consumir mais doces durante o dia e sinta mais irritação. 🤬"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Alguns suplementos podem ajudar com o sono reparador, como o Triptofano. Ele pode ser encontrado em farmácias e lojas esportivas, mas lembre-se de consultar alguém profissional antes de consumir."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#comunicar_sobre_sono",
+      "dialog_node": "node_9_1631826667661",
+      "previous_sibling": "node_9_1632400996794"
+    },
+    {
+      "type": "standard",
+      "title": "Alongamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alongar ajuda a reduzir a tensão muscular e, com isso, relaxa o corpo e a mente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Lembre-se de respeitar o limite do seu corpo. 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "É bom fazer ao acordar, para despertar o corpo, e antes de dormir, para liberar as tensões do dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Caso prefira, há canais no YouTube que podem te ajudar com a prática ou ter uma sequência e cadência melhor, como no caso do Yoga."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fazer_alongamento",
+      "dialog_node": "node_9_1632276340446",
+      "previous_sibling": "node_9_1632357006689"
+    },
+    {
+      "type": "standard",
+      "title": "Auto-massagem",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Automassagem é um momento que deve ser seu. Você pode fazer usando suas mãos ou algum objeto, como bola de massagear."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para facilitar a massagem, pode usar óleos essenciais ou óleo vegetal que ajudam a deslizar a mãos e podem possuir benefícios terapêutico, mas não é obrigatório!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A técnica deve ser leve. Se sentir alguma dor forte, pare imediatamente e procure um massoterapeuta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fazer_automassagem",
+      "dialog_node": "node_9_1632357006689",
+      "previous_sibling": "node_5_1631741046505"
+    },
+    {
+      "type": "frame",
+      "title": "Expressar Emoções",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não guarde para si todas as emoções e sentimentos que tiver ao longo do dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Compartilhar com alguém de confiança pode te ajudar a processar e liberar o estresse acumulado 🗣️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Caso aconteça alguma situação que te aborreça no trabalho, tente conversar com a pessoa superior a você ou com quem te fez se sentir assim. Foque no sentimento. Evite culpar os outros, o objetivo aqui é o seu bem-estar mental."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#expressar_emocoes",
+      "dialog_node": "node_9_1632400996794",
+      "previous_sibling": "node_8_1631821029291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pega a 🍿 pra assistir esses filmes delícias: \n<b> - Simplesmente Amor; </b>\n <b> - Cinema Paradiso; </b> \n<b> - Castelo no céu; </b> \n<b> - Os intocáveis; </b> \n<b> - Sim, senhor! </b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Filme",
+      "dialog_node": "response_10_1631800355361",
+      "previous_sibling": "response_5_1631800182755"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Já quer ir embora? Ah, tudo bem! Vou estar por aqui se quiser conversar mais! 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Maaaaass, antes de ir, você pode me ajudar respondendo 2 perguntinhas rápidas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A 1ª é para saber o que você achou de falar comigo. De 1 a 5, sendo 1 a menor e 5 a maior nota, quanto você gostou da nossa conversa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1631735400484",
+      "disabled": true,
+      "dialog_node": "response_1_1632238502021"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa sessão tem como objetivo receber a pessoa que procura um profissional que possa escutá-la. Ou seja, é um serviço de acolhimento psicológico pontual, focado em momentos de crise ou dor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "É uma forma de expressar o que está sentindo. Por exemplo, \nvocê acabou de perder o emprego agora e, por não saber lidar com isso, está precisando conversar com alguém. \nSendo assim, é um atendimento mais imediato. \nO próprio CVV realiza esse trabalho também pelas pessoas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Muitos não sabem sobre a sessão de acolhimento, \nmas ela é uma maneira de conversar com um psicólogo, caso precise de ajuda."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O FEPO também realiza a sessão de acolhimento online e você poderá marcar com um psicólogo facilmente. As sessões custam 38 reais e têm duração de 30 minutos. É só acessar o site e escolher o assunto que precisa falar e que se sinta à vontade.\n\n<a href= 'https://bit.ly/3Aqfrr6'> https://www.fepo.com.br</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1631811576179",
+      "conditions": "#informar_tipo_sessao and @sessao:Acolhimento",
+      "dialog_node": "response_2_1631811619585",
+      "previous_sibling": "slot_10_1632276832839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em meio ao turbilhão do dia a dia, ter pensamentos acelerados e índices de crise de ansiedade se tornam cada vez mais comuns."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aqui estão alguns profissionais que podem te ajudar nesse processo de conexão interna:\n\n🦋 <b>Pri Leite - Meditação guiada em 10 minutos </b>\n<a href= 'https://bit.ly/3zhMVqg'> (https://youtu.be/KKC051pMbWQ)</a>\n🦋 <b> Meditação Guiada - Plenitude do Ser </b>   \n<a href= 'https://spoti.fi/3Cir3wZ'> (https://open.spotify.com/show/7tVjJoAdw4qMp3tZAQHakK?si=m1BFhyAbRiSk4Cjr0Qi-5w&dl_branch=1)</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Procure um lugar tranquilo, sente ou deite em uma posição confortável e play! É hora de acalmar a mente. 🤫"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1631743502012",
+      "conditions": "#sugerir_atividade_fisica && @exercicios:Meditação",
+      "dialog_node": "response_3_1631807712522",
+      "previous_sibling": "response_4_1631807679032"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, é muito bom ter a chance de falar com você! Meu nome é Simone e estou aqui pra bater um papo leve sobre saúde mental e bem-estar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Podemos começar por temas como **autocuidado, saúde física ou carreira e home office. </b> Se preferir algo ainda mais leve, posso dar umas dicas de <b>filmes, séries, podcasts e livros</b> 😄\n\nMas se vc precisa de ajuda profissional, também posso dar indicações!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Digite o tema q prefere e seguiremos adiante.\n\nSe quiser interromper a conversa, é só digitar \"parar\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "context": {
+        "counter": 1
+      },
+      "disabled": true,
+      "dialog_node": "response_3_1632279197780",
+      "previous_sibling": "slot_10_1632279197410"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tá com tempo? Canais no YouTube pra se divertir e aprender um pouco de tudo:\n</b>- IlustradaMente; </b>\n<b> - Manual do Mundo; </b>\n<b> - Nerdologia; </b>\n<b> - Alimente o Cérebro; </b>\n<b> - Minutos Psíquicos. <b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Youtube",
+      "dialog_node": "response_4_1631800181025",
+      "previous_sibling": "response_5_1631674784119"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A yoga traz a ideia de união e reintegração do corpo com a mente, levando ao equilíbrio do ser e, também, à boa forma através da qual se pode atingir o estado mais elevado da existência. 🌻"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aqui vão algumas dicas de conteúdos gratuitos na internet para realinhar os chakras em casa.\n\n🧘‍♀️ <b> Yoga Mudra</b>                                                                                                                                             <a href= 'https://bit.ly/39iKFVb'> (https://youtu.be/ssmHHBS0kjQ)</a>\n🧘‍♂️<b> Ricardo Bordin </b>                                                                                                                      <a href= 'https://bit.ly/2Xns745'> (https://www.youtube.com/watch?v=tZWEuJGoi5Y)</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1631743502012",
+      "conditions": "@exercicios:Yoga",
+      "dialog_node": "response_4_1631807679032",
+      "previous_sibling": "response_4_1631807711586"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você trabalha em home office ou passa muitas horas em frente ao computador, pilates é pra você!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A correção da postura e alívio de dores na lombar são os dois carros chefes dessa prática. 💜"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vale muito a pena reservar (pelo menos) <b> 2 horinhas </b> da sua semana para praticar. Aqui estão minhas dicas:\n🤸‍♀️ <b> Café Com Pilates - </b> Aula com uso de bola, sofá ou cadeira. \n<a href= 'https://bit.ly/3lwVJDT'> (https://youtu.be/cMCtAqfAWag )</a>\n🤸 <b> Autoridade Fitness - </b> Aula sem equipamentos para iniciantes. <a href= 'https://bit.ly/3hBTwpE'> (https://youtu.be/RUpsq4SyzDY?t=1)</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1631743502012",
+      "conditions": "#sugerir_atividade_fisica && @exercicios:Pilates",
+      "dialog_node": "response_4_1631807711586",
+      "previous_sibling": "response_6_1632497177973"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dicas pra maratonar:                                                                                                                              <b> - Insecure;</b>\n<b> - Desserviço ao consumidor; </b>\n<b> - Modern love; </b>\n<b> - Upload; </b>\n<b> - Love, Victor; </b>\n<b> - Solar Opposites. </b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Séries",
+      "dialog_node": "response_5_1631674784119",
+      "previous_sibling": "response_9_1631674785165"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3 livros 📚 pra fazer pensar: \n<b> - Inteligência emocional </b> \n<b> (Daniel Goleman);</b>\n<b> - A coragem de ser imperfeito </b>  \n<b> (Reneé Brown); </b>\n<b> - As coisas que você só vê quando desacelera </b> \n<b> (Haemin Sunim) </b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Livro",
+      "dialog_node": "response_5_1631800182755",
+      "previous_sibling": "response_6_1631800181873"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Falta de tempo não é desculpa pra não meditar! 😌  \nBaixe o app <b> 5 Minutos (iOS e Android) </b>                                                                               Android : <a href= 'https://bit.ly/398ZERJ'> aqui! </a>   \nIOS :  <a href= 'https://apple.co/3zfjhlN'> aqui! </a> e reserve 1 tempinho td dia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te falta foco? \nTenta a técnica pomodoro pra se concentrar!  🍅\n\nO Focus To-Do (iOS e Android) pode ser usado em qualquer tela.\nAndroid : <a href= 'https://bit.ly/3tJvNIT'> aqui! </a>   \nIOS :  <a href= 'https://apple.co/3Afc9XQ'> aqui! </a> \n\nPosso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Já pensou como a gratidão ajuda a fluir a vida melhor? \n🤔 Baixe Gratidão (iOS e Android) \ne observe sua transformação ao longo dos dias.\nAndroid : <a href= 'https://bit.ly/3zkIjQm'> aqui! </a>   \nIOS :  <a href= 'https://apple.co/3Ao66jW'> aqui! </a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Aplicativo",
+      "dialog_node": "response_6_1631800181873",
+      "previous_sibling": "response_4_1631800181025"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Diferente da sessão de acolhimento, a psicoterapia é contínua. \nIsso significa que é realizado um acompanhamento pelo psicólogo e definida a periodicidade das consultas dependendo da gravidade \ndo que a pessoa estiver sentindo e passando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "É possível hoje em dia encontrar psicólogos \nque atendam online e que acompanhem as pessoas em suas crises \ne dificuldades."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Se você está passando por algum problema que não consegue resolver sozinho, procure ajuda de um profissional. \nVocê poderá ter um acompanhamento efetivo e se sentir melhor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Zenklub: <a href= 'https://bit.ly/2VLqo7O'> https://zenklub.com.br </a> \nPsitto: <a href= 'https://bit.ly/3Cgq00u'>https://www.psitto.com.br</a> \nVittude: <a href= 'https://bit.ly/3tLYGEC'>https://www.vittude.com</a>\nFEPO:  <a href= 'https://bit.ly/3Aqfrr6'> https://www.fepo.com.br</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1631811576179",
+      "conditions": "#informar_tipo_sessao and @sessao:Psicoterapia",
+      "dialog_node": "response_6_1631811622442",
+      "previous_sibling": "response_2_1631811619585"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante a pandemia, pode ser difícil manter a motivação para se exercitar, mas isso faz seu cérebro produzir o famoso hormônio da felicidade: a endorfina! 🤸‍♂️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Yoga</b>, <b>pilates</b> ou <b>meditação</b>, o que te atrai mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1631743502012",
+      "conditions": "#sugerir_atividade_fisica && @exercicios:(Exercícios em casa)",
+      "dialog_node": "response_6_1632497177973",
+      "previous_sibling": "slot_3_1631815895586"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Escolha o local na casa que você vai usar como escritório. Ele deve ser agradável, com todo o material necessário para o trabalho ou estudo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Qualidade de vida também é ergonomia! Prepare um ambiente o mais confortável possível, com cadeira na altura da tela etc. São as coisas simples que fazem uma enorme diferença"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1631756299994",
+      "conditions": "#organizar_espaco && @ergonomia",
+      "dialog_node": "response_8_1631756382963"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que você vai fazer pela sua felicidade hoje? Esse é o convite do \n<b>Bom dia, Obvius (Spotify)</b> pro papo sobre saúde mental, autocuidado, carreira, autoestima etc.                                                                                                                                                              Ouça clicando <a href= 'spoti.fi/3EjNSlF'>aqui</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Uma boa conversa na mesa de bar sobre assuntos diversos: essa é a proposta do <b>Para dar nome às coisas (Spotify)! </b>             \n🎧 Ouça clicando <a href= 'https://spoti.fi/2XlAtsj'>aqui</a>  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "E, para entender melhor sua mente e emoções, \nouça <b>Autoconsciente (Spotify)\n</b> 🎧Ouça clicando <a href= 'https://spoti.fi/2XsQfSP'>aqui</a>\n\nPosso te ajudar com mais dicas, digite \"voltar ao menu\" para ver as opções ou \"sair\" para encerrar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1631674711774",
+      "conditions": "@dica:Podcast",
+      "dialog_node": "response_9_1631674785165",
+      "previous_sibling": "slot_5_1632513701770"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Manter a organização te ajudará a estabelecer as suas funções e a criar o seu próprio ambiente profissional. Assim, você entende quase que inconscientemente que, ao estar ali, o seu foco precisará ser de 100%."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Explore melhor os espaços – prateleiras ou porta trecos, por exemplo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Não acumule objetos. Deixe na mesa apenas o que será usado.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1631756299994",
+      "conditions": "#organizar_espaco && @ambiente",
+      "dialog_node": "response_9_1631758065870",
+      "previous_sibling": "response_8_1631756382963"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1631741046505",
+      "dialog_node": "slot_10_1632276011051"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1631811576179",
+      "variable": "$sessao",
+      "dialog_node": "slot_10_1632276832839",
+      "previous_sibling": "node_2_1632278934364"
+    },
+    {
+      "type": "slot",
+      "parent": "Bem-vindo",
+      "dialog_node": "slot_10_1632279197410"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1631743502012",
+      "variable": "exercicios",
+      "dialog_node": "slot_3_1631815895586",
+      "previous_sibling": "handler_5_1632311365336"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1632400996794",
+      "variable": "$expressar_emocoes",
+      "dialog_node": "slot_3_1632421257926"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1631674711774",
+      "variable": "$recomendar_para_espairecer",
+      "dialog_node": "slot_5_1632513701770",
+      "previous_sibling": "slot_6_1631805437452"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1631674711774",
+      "variable": "$dica",
+      "dialog_node": "slot_6_1631805437452",
+      "previous_sibling": "handler_1_1631805437073"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1631735570142",
+      "dialog_node": "slot_9_1632236632175"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "filme"
+    },
+    {
+      "text": "me indica um filme"
+    },
+    {
+      "text": "me indica um filme "
+    },
+    {
+      "text": "me indica um livro"
+    },
+    {
+      "text": "me indica um livro por favor"
+    },
+    {
+      "text": "me indica um podcast"
+    },
+    {
+      "text": "me informa"
+    },
+    {
+      "text": "podcast"
+    },
+    {
+      "text": "saúde física"
+    },
+    {
+      "text": "sim"
+    },
+    {
+      "text": "vídeo"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "Robô de saúde mental para a bot brasil!",
+  "name": "Simone - Bot Brasil-dialog"
+}
